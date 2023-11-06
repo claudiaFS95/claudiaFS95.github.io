@@ -43,17 +43,17 @@ sections:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
   - block: collection
-      content:
-        title: Recent Publications
-        text: |-
-          {{% callout note %}}
-          Quickly discover relevant content by [filtering publications](./publication/).
-          {{% /callout %}}
-        filters:
-          folders:
-            - publication
-          exclude_featured: true
-      design:
-        columns: '2'
-        view: citation
+    content:
+      title: Recent Publications
+      text: |-
+        {{% callout note %}}
+        Quickly discover relevant content by [filtering publications](./publication/).
+        {{% /callout %}}
+      filters:
+        folders:
+          - publication
+        exclude_featured: true
+    design:
+      columns: '2'
+      view: citation
 ---
